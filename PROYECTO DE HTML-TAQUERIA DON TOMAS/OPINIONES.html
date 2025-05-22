@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Opiniones</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff8f0;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background-color: #d32f2f;
+      color: white;
+      padding: 20px;
+    }
+    nav {
+      background-color: #f5c6a5;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      background-color: #fff;
+      padding: 5px 10px;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      background-color: #ffe0cc;
+    }
+    section {
+      max-width: 600px;
+      margin: 20px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    h2 {
+      margin-bottom: 10px;
+    }
+    blockquote {
+      background: #fdf2e9;
+      border-left: 5px solid #d32f2f;
+      margin: 20px;
+      padding: 10px 20px;
+      border-radius: 6px;
+      font-style: italic;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    textarea, input, button {
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+    button {
+      background-color: #d32f2f;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #a72828;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Opiniones</h1>
+  </header>
+
+  <nav>
+    <a href="PROYECTO_DE_HTML.html">Inicio</a>
+    <a href="GALERIA.html">Galería</a>
+    <a href="menu_tacos.html">Menú</a>
+  </nav>
+
+<section>
+  <h2>¿Qué opinas de nuestra taquería?</h2>
+  <p>¡Tu opinión es muy importante para nosotros, siempre siendo sincero, tilin!</p>
+  <p>
+  <input type="text" placeholder="Tu nombre" required>
+    <textarea rows="4" placeholder="Escribe tu opinión aquí..." required></textarea>
+  </p>
+  <form>
+    <button type="submit">Enviar opinión</button>
+  </form>
+
+    <h3>Opiniones destacadas</h3>
+    <blockquote>"Los mejores tacos que he probado, ¡100% recomendados!"</blockquote>
+    <blockquote>"Excelente atención y ambiente familiar. Volveré muy pronto."</blockquote>
+  </section>
+</body>
+</html>
+
